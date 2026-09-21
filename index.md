@@ -25,10 +25,11 @@ Contact: [{{ site.email }}](mailto:{{ site.email }})
 {% endfor %}
 </ul>
 
-## Recent Publications
+## Selected Publications
 
-{% assign recent = site.data.publications | sort: 'year' | reverse | slice: 0, 3 %}
-{% for pub in recent %}
+{% assign selected_titles = "Perturbation-Invariant Feature Based Robust Invisible Watermarking|R2M: Real-Aware Residual Model Merging for Robust and Generalizable Deepfake Detection|Siamese DINO Adapter Learning with Haze-Robust Feature Representation for Nighttime Image Dehazing" | split: "|" %}
+{% for t in selected_titles %}
+{% assign pub = site.data.publications | where: 'title', t | first %}
 <div class="pub-card{% if pub.image %} has-image{% endif %}">
   {% if pub.image %}<img class="pub-figure" src="{{ pub.image | uri_escape | relative_url }}" alt="">{% endif %}
   <div class="pub-body">
