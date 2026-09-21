@@ -124,7 +124,7 @@
   year: 2026
   title: "Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning"
   authors: "Hayoung Park, Jinhee Park, Choongsang Cho, Guisik Kim"
-  venue: "CVPR 2026 Workshop — 1M-Deepfakes Detection Challenge, 4th place"
+  venue: "AIMS Workshop, CVPR 2026 (Best Paper Award) — 1M-Deepfakes Detection Challenge, 4th place"
   pdf: "paper/2026/Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning.pdf"
   image: "figures/domain-incremental-deepfake-teaser.png"
 
