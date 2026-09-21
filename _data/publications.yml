@@ -82,8 +82,8 @@
 
 - type: conference
   year: 2026
-  title: "TODO: exact paper title"
-  authors: "Guisik Kim"
+  title: "Perturbation-Invariant Feature Based Robust Invisible Watermarking"
+  authors: "Guisik Kim, Geunwoo Oh, Hayoung Park, Jinhee Park, Choongsang Cho"
   venue: "IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge (Winner) — ICIP 2026 (to appear)"
   # Not yet officially published — PDF withheld. Add the pdf field once it's out.
 
