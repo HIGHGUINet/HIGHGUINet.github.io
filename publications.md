@@ -28,6 +28,8 @@ title: Publications
 
 ## Journal Publications
 
+<p class="pub-meta">Impact Factors shown are the journal's current (2024 JCR) values, not the value at time of publication.</p>
+
 {% assign journal = site.data.publications | where: 'type', 'journal' %}
 {% assign years = journal | map: 'year' | uniq | sort | reverse %}
 {% for y in years %}
@@ -40,7 +42,7 @@ title: Publications
     <div class="pub-body">
       <div class="pub-title">{{ pub.title }}</div>
       <div class="pub-meta">{{ pub.authors }}</div>
-      <div class="pub-meta">{{ pub.venue }}</div>
+      <div class="pub-meta">{{ pub.venue }}{% if pub.if %} · IF {{ pub.if }}{% endif %}</div>
       {% if pub.pdf %}<div class="pub-links"><a href="{{ pub.pdf | uri_escape | relative_url }}">PDF</a></div>{% endif %}
     </div>
   </div>

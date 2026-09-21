@@ -7,7 +7,8 @@ automatically builds and deploys to `https://highguinet.github.io`.
 
 1. Put the PDF (or image) file in `paper/<year>/`.
 2. Add an entry to the relevant file: `_data/publications.yml` (`type: journal` or
-   `conference`), `_data/awards.yml` (awards), `_data/patents.yml` (patents), or
+   `conference`; journal entries can include an `if:` field for the journal's current
+   Impact Factor), `_data/awards.yml` (awards), `_data/patents.yml` (patents), or
    `_data/news.yml` (news).
 3. `git add -A`, `git commit`, `git push` — GitHub Actions builds and deploys
    automatically (takes 1-2 minutes).

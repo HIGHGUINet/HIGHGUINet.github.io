@@ -11,6 +11,7 @@ title: Home
 </div>
 
 Ph.D., School of Computer Science and Engineering, Chung-Ang University (Advisor: Prof. Junseok Kwon).
+
 Research interests: image dehazing, deepfake detection, low-level vision, satellite image deep learning, and adverse weather scene understanding.
 
 Contact: [{{ site.email }}](mailto:{{ site.email }})
@@ -32,7 +33,7 @@ Contact: [{{ site.email }}](mailto:{{ site.email }})
   {% if pub.image %}<img class="pub-figure" src="{{ pub.image | uri_escape | relative_url }}" alt="">{% endif %}
   <div class="pub-body">
     <div class="pub-title">{{ pub.title }}</div>
-    <div class="pub-meta">{{ pub.authors }} · {{ pub.venue }}</div>
+    <div class="pub-meta">{{ pub.authors }} · {{ pub.venue }}{% if pub.if %} · IF {{ pub.if }}{% endif %}</div>
     {% if pub.pdf %}<div class="pub-links"><a href="{{ pub.pdf | uri_escape | relative_url }}">PDF</a></div>{% endif %}
   </div>
 </div>
