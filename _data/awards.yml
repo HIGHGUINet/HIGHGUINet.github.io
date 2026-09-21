@@ -1,4 +1,4 @@
-# Add an award the same way you add a publication — it's picked up automatically.
+# Add an award the same way you add a publication - it's picked up automatically.
 
 - year: 2026
   date: "2026.09"
@@ -6,7 +6,7 @@
 
 - year: 2026
   date: "2026.06"
-  title: "Best Paper Award, CVPR 2026 AIMS Workshop (as corresponding author) — \"Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning\""
+  title: "Best Paper Award, CVPR 2026 AIMS Workshop (as corresponding author) - \"Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning\""
   file: "paper/2026/AIMS2026_best_paper_award.jpg"
 
 - year: 2026

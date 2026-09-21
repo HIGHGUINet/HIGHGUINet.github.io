@@ -1,6 +1,6 @@
 # HIGHGUINet.github.io
 
-Guisik Kim's personal homepage. Built with Jekyll + GitHub Actions — pushing to `main`
+Guisik Kim's personal homepage. Built with Jekyll + GitHub Actions - pushing to `main`
 automatically builds and deploys to `https://highguinet.github.io`.
 
 ## Adding a publication or award (auto-deployed)
@@ -10,7 +10,7 @@ automatically builds and deploys to `https://highguinet.github.io`.
    `conference`; journal entries can include an `if:` field for the journal's current
    Impact Factor), `_data/awards.yml` (awards), `_data/patents.yml` (patents), or
    `_data/news.yml` (news).
-3. `git add -A`, `git commit`, `git push` — GitHub Actions builds and deploys
+3. `git add -A`, `git commit`, `git push` - GitHub Actions builds and deploys
    automatically (takes 1-2 minutes).
 
 ## One-time setup
@@ -39,7 +39,7 @@ bundle exec jekyll serve
   `.gitignore` (title/authors are already filled in)
 - Once the ACCV 2026 paper (`418_Interference_Gated_Continu.pdf`, "Interference-Gated Continual
   Learning for Deepfake Detection") is officially published: fill in the real author list in
-  `_data/publications.yml` (currently TODO — the source PDF is an anonymous submission copy),
+  `_data/publications.yml` (currently TODO - the source PDF is an anonymous submission copy),
   add the `pdf` field, and remove it from `.gitignore`
 - Swap the profile photo (`figures/me.png`) for a different one if desired
 - Fill in patent numbers in `_data/patents.yml` (US/EP/JP, and the missing KOR ones)
@@ -55,4 +55,4 @@ Open-access journals (IEEE Access, Sensors/MDPI, etc.) and already-published
 conference/workshop papers have their PDFs published as usual.
 
 A cropped teaser figure (`image:` field) is fine to publish even when the `pdf` field is
-withheld — it's a small preview, not full paper distribution.
+withheld - it's a small preview, not full paper distribution.
