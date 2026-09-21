@@ -28,10 +28,13 @@ Contact: [{{ site.email }}](mailto:{{ site.email }})
 
 {% assign recent = site.data.publications | sort: 'year' | reverse | slice: 0, 3 %}
 {% for pub in recent %}
-<div class="pub-card">
-  <div class="pub-title">{{ pub.title }}</div>
-  <div class="pub-meta">{{ pub.authors }} · {{ pub.venue }}</div>
-  {% if pub.pdf %}<div class="pub-links"><a href="{{ pub.pdf | uri_escape | relative_url }}">PDF</a></div>{% endif %}
+<div class="pub-card{% if pub.image %} has-image{% endif %}">
+  {% if pub.image %}<img class="pub-figure" src="{{ pub.image | uri_escape | relative_url }}" alt="">{% endif %}
+  <div class="pub-body">
+    <div class="pub-title">{{ pub.title }}</div>
+    <div class="pub-meta">{{ pub.authors }} · {{ pub.venue }}</div>
+    {% if pub.pdf %}<div class="pub-links"><a href="{{ pub.pdf | uri_escape | relative_url }}">PDF</a></div>{% endif %}
+  </div>
 </div>
 {% endfor %}
 

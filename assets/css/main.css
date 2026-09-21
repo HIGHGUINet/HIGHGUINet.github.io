@@ -88,9 +88,30 @@ h2 { font-size: 1.3rem; margin-top: 2.2em; border-bottom: 1px solid var(--border
   padding: 14px 18px;
   margin-bottom: 12px;
 }
+.pub-card.has-image {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.pub-card .pub-figure {
+  width: 140px;
+  height: 90px;
+  object-fit: contain;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px;
+  flex: none;
+}
+.pub-card .pub-body { min-width: 0; }
 .pub-card .pub-title { font-weight: 600; }
 .pub-card .pub-meta { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
 .pub-card .pub-links { margin-top: 6px; font-size: 0.9rem; }
+
+@media (max-width: 540px) {
+  .pub-card.has-image { flex-direction: column; align-items: stretch; }
+  .pub-card .pub-figure { width: 100%; height: auto; max-height: 160px; }
+}
 
 .site-footer {
   border-top: 1px solid var(--border);
