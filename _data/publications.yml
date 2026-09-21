@@ -21,7 +21,7 @@
   title: "Satellite Image Dehazing based on Dual Frequency Pass Networks"
   authors: "Guisik Kim, Choongsang Cho, Joohyung Kang, Junseok Kwon"
   venue: "IEEE Geoscience and Remote Sensing Letters (GRSL), vol. 21, Jan. 2024"
-  if: "4.4"
+  if: "4.8"
   image: "figures/architecture.png"
   # Subscription journal - PDF not published
 
@@ -38,7 +38,7 @@
   title: "Self-Parameter Distillation Dehazing"
   authors: "Guisik Kim, Junseok Kwon"
   venue: "IEEE Transactions on Image Processing (TIP), vol. 32, Dec. 2022"
-  if: "13.7"
+  if: "15.3"
   image: "figures/intro(1).png"
   # Subscription journal - PDF not published
 
@@ -56,7 +56,7 @@
   title: "Deep Illumination-aware Dehazing with Low-light and Detail Enhancement"
   authors: "Guisik Kim, Junseok Kwon"
   venue: "IEEE Transactions on Intelligent Transportation Systems (T-ITS), vol. 23, 2022"
-  if: "7.9" # approximate - sources disagree, double check before relying on this
+  if: "9.1"
   image: "figures/figure2.png"
   # Subscription journal - PDF not published
 
@@ -65,7 +65,7 @@
   title: "Pixel-wise Wasserstein Autoencoder for Highly Generative Dehazing"
   authors: "Guisik Kim, Sung Woo Park, Junseok Kwon"
   venue: "IEEE Transactions on Image Processing (TIP), vol. 30, pp. 5452-5462, 2021"
-  if: "13.7"
+  if: "15.3"
   image: "figures/intro.jpg"
   # Subscription journal - PDF not published
 
@@ -253,7 +253,7 @@
   authors: "Guisik Kim, Suhyeon Ha, Junseok Kwon"
   venue: "IEEE International Conference on Image Processing (ICIP) 2018"
   pdf: "paper/2018/Adaptive_Patch_Based_Convolutional_Neural_Network_for_Robust_Dehazing.pdf"
-  image: "figures/flowchart (2).png"
+  image: "figures/dehazing-patch.png"
 
 - type: conference
   year: 2017
@@ -261,4 +261,4 @@
   authors: "Guisik Kim, Junseok Kwon"
   venue: "British Machine Vision Conference (BMVC) 2017"
   pdf: "paper/2017/paper079.pdf"
-  image: "figures/dehazing-patch.png"
+  image: "figures/dehazing-comparison.png"
