@@ -82,9 +82,9 @@
 
 - type: conference
   year: 2026
-  title: "TODO: exact title of the ICIP 2026 Grand Challenge paper"
+  title: "TODO: exact paper title"
   authors: "Guisik Kim"
-  venue: "ICIP 2026 Grand Challenge (to appear)"
+  venue: "IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge (Winner) — ICIP 2026 (to appear)"
   # Not yet officially published — PDF withheld. Add the pdf field once it's out.
 
 - type: conference

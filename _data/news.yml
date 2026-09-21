@@ -1,34 +1,56 @@
 # Add newest items at the top. Only the first few are shown on the home page.
+# Source: guisik.creatorlink.net (previous homepage), News section, full 18-item list.
 
 - date: "2026.09"
-  text: "Paper accepted to ACCV 2026"
+  text: "Our paper was accepted at ACCV 2026"
+
+- date: "2026.09"
+  text: "Winner of the IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge & paper accepted at ICIP 2026"
 
 - date: "2026"
-  text: "Paper accepted to ECCV 2026"
+  text: "Our paper was accepted at ECCV 2026"
+
+- date: "2026.06"
+  text: "Best Paper Award at the CVPR 2026 AIMS Workshop (as corresponding author)"
 
 - date: "2026"
-  text: "Won Best Paper Award at the CVPR 2026 AIMS Workshop"
-
-- date: "2026"
-  text: "3rd place, NTIRE 2026 Nighttime Dehazing Challenge & paper accepted to the CVPR workshop (200+ teams)"
+  text: "Ranked 3rd in the NTIRE 2026 Nighttime Dehazing Challenge & paper accepted at the CVPR workshop (200+ teams, 4,200+ submissions)"
 
 - date: "2025"
-  text: "4th place, 2025 1M-Deepfakes Detection Challenge"
+  text: "Achieved 4th place in the 2025 1M-Deepfakes Detection Challenge"
 
 - date: "2025"
-  text: "Paper accepted to Interspeech 2025"
+  text: "Our paper was accepted at Interspeech 2025"
 
 - date: "2025"
-  text: "Paper accepted to WACV 2025 (first as corresponding author)"
+  text: "Our paper was accepted at WACV 2025 — my first as corresponding author"
 
 - date: "2024"
-  text: "Paper accepted to the AIM Workshop, ECCV 2024"
+  text: "Our paper was accepted at the AIM Workshop, ECCV 2024"
 
 - date: "2024"
-  text: "Paper accepted to GRSL"
+  text: "Our paper was accepted by GRSL"
 
 - date: "2023"
-  text: "Invited talk, Korean Institute of Broadcast and Media Engineers"
+  text: "Invited talk at the Early Career Researchers Session, Korean Institute of Broadcast and Media Engineers"
 
 - date: "2023"
-  text: "Paper accepted to the NTIRE Workshop, CVPR 2023"
+  text: "Our paper was accepted at the NTIRE Workshop, CVPR 2023"
+
+- date: "2022.12"
+  text: "Recognized as an Outstanding Reviewer, ACCV 2022"
+
+- date: "2022"
+  text: "Successfully defended my Ph.D. thesis"
+
+- date: "2022"
+  text: "Our paper was accepted by TIP"
+
+- date: "2022.08"
+  text: "Awarded 1st place in the AI Graduate School Challenge 2022"
+
+- date: "2022.07"
+  text: "Received the EiR Award 2022 from the School of Computer Science and Engineering, CAU"
+
+- date: "2022"
+  text: "Our paper was accepted by T-ITS"

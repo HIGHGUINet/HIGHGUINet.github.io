@@ -1,8 +1,12 @@
 # Add an award the same way you add a publication — it's picked up automatically.
 
 - year: 2026
+  date: "2026.09"
+  title: "Winner, IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge"
+
+- year: 2026
   date: "2026.06"
-  title: "Best Paper Award, CVPR 2026 AIMS Workshop"
+  title: "Best Paper Award, CVPR 2026 AIMS Workshop (as corresponding author)"
   file: "paper/2026/AIMS2026_best_paper_award.jpg"
 
 - year: 2026
