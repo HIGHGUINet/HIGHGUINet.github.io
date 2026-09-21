@@ -1,0 +1,105 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #2454ff;
+  --border: #e6e6e6;
+  --card: #f7f7f8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161a;
+    --fg: #eaeaea;
+    --muted: #9a9a9a;
+    --accent: #7fa2ff;
+    --border: #2a2d33;
+    --card: #1c1f24;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+}
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.site-header .brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--fg);
+}
+.site-header nav a {
+  margin-left: 20px;
+  color: var(--fg);
+  font-size: 0.95rem;
+}
+
+main.wrap { padding-top: 40px; padding-bottom: 60px; min-height: 60vh; }
+
+h1 { font-size: 1.9rem; margin-bottom: 0.3em; }
+h2 { font-size: 1.3rem; margin-top: 2.2em; border-bottom: 1px solid var(--border); padding-bottom: 0.3em; }
+
+.profile {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+.tagline { color: var(--muted); }
+
+.year-group { margin-top: 1.6em; }
+.year-group h3 { color: var(--muted); font-weight: 600; font-size: 1rem; margin-bottom: 0.6em; }
+
+.pub-card, .award-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+}
+.pub-card .pub-title { font-weight: 600; }
+.pub-card .pub-meta { color: var(--muted); font-size: 0.9rem; margin-top: 4px; }
+.pub-card .pub-links { margin-top: 6px; font-size: 0.9rem; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.site-footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 24px;
+}
+.site-footer .links a { margin-left: 14px; }

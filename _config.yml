@@ -1,0 +1,24 @@
+title: "Guisik Kim"
+description: "Senior Researcher, Multi-Modal Research Center, Korea Electronics Technology Institute (KETI) — Image Restoration, Domain Generalization, Deepfake Detection"
+email: specialre@naver.com
+github_username: HIGHGUINet
+url: "https://highguinet.github.io"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "GUI_HOMEPAGE (2).zip"
+  - node_modules
+  - vendor

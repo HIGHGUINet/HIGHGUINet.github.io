@@ -1,0 +1,220 @@
+# 논문을 추가하는 방법:
+# 1. PDF 파일을 paper/<연도>/ 폴더에 넣는다.
+# 2. 아래에 항목을 하나 추가한다 (type: journal 또는 conference).
+# 3. git add -A / commit / push 하면 GitHub Actions가 자동으로 사이트에 반영한다.
+#
+# pdf 필드가 없는 항목은 로컬에 파일이 없는 것으로, 링크 없이 텍스트만 표시됩니다.
+# 출처: guisik.creatorlink.net(기존 홈페이지) + Google Scholar(scholar.google.com/citations?user=-VA0SJcAAAAJ)
+
+# ---------------- Journal ----------------
+
+- type: journal
+  year: 2026
+  title: "The Competition of Fairness in AI-generated Face Detection: Methods and Results"
+  authors: "S. Hu, L. Lin, S. Desai, A. Pawar, G. Lin, X. Wang, D.S. Schiff, S.N. Mohanty, et al. (incl. Guisik Kim)"
+  venue: "Machine Intelligence Research, 2026"
+
+- type: journal
+  year: 2024
+  title: "Satellite Image Dehazing based on Dual Frequency Pass Networks"
+  authors: "Guisik Kim, Choongsang Cho, Joohyung Kang, Junseok Kwon"
+  venue: "IEEE Geoscience and Remote Sensing Letters (GRSL), vol. 21, Jan. 2024"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2023
+  title: "Dual Gradient based Snow Attentive Desnowing"
+  authors: "Guisik Kim, Sungmin Cho, Dokyeong Kwon, Seo Hyeon Lee, Junseok Kwon"
+  venue: "IEEE Access, vol. 11, Mar. 2023"
+  pdf: "paper/2023/Dual_Gradient_Based_Snow_Attentive_Desnowing.pdf"
+
+- type: journal
+  year: 2022
+  title: "Self-Parameter Distillation Dehazing"
+  authors: "Guisik Kim, Junseok Kwon"
+  venue: "IEEE Transactions on Image Processing (TIP), vol. 32, Dec. 2022"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2022
+  title: "Style Transfer with Target Feature Palette and Attention Coloring"
+  authors: "Suhyeon Ha, Guisik Kim, Junseok Kwon"
+  venue: "Multimedia Tools and Applications (MTAP), vol. 81, May 2022"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2022
+  title: "Deep Illumination-aware Dehazing with Low-light and Detail Enhancement"
+  authors: "Guisik Kim, Junseok Kwon"
+  venue: "IEEE Transactions on Intelligent Transportation Systems (T-ITS), vol. 23, 2022"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2021
+  title: "Pixel-wise Wasserstein Autoencoder for Highly Generative Dehazing"
+  authors: "Guisik Kim, Sung Woo Park, Junseok Kwon"
+  venue: "IEEE Transactions on Image Processing (TIP), vol. 30, pp. 5452-5462, 2021"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2021
+  title: "Robust Person Re-identification via Graph Convolution Networks"
+  authors: "Guisik Kim, Dong Wook Shu, Junseok Kwon"
+  venue: "Multimedia Tools and Applications (MTAP), vol. 80, pp. 29129-29138, 2021"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2019
+  title: "Robust Visual Tracking with Adaptive Initial Configuration and Likelihood Landscape Analysis"
+  authors: "Guisik Kim, Junseok Kwon"
+  venue: "IET Computer Vision, vol. 13, no. 1, pp. 1-7, Feb. 2019"
+  # 구독 저널이라 PDF 미게시
+
+- type: journal
+  year: 2017
+  title: "Effective Visual Tracking using Multi-block and Scale Space based on Kernelized Correlation Filters"
+  authors: "Soowoong Jeong, Guisik Kim, Sangkeun Lee"
+  venue: "Sensors, vol. 17, no. 3, Feb. 2017"
+  pdf: "paper/2017/sensors-17-00433.pdf"
+
+# ---------------- Conference ----------------
+
+- type: conference
+  year: 2026
+  title: "TODO: ICIP 2026 Grand Challenge 논문 정확한 제목"
+  authors: "Guisik Kim"
+  venue: "ICIP 2026 Grand Challenge (to appear)"
+  # 아직 정식 출판 전이라 PDF 비공개. 공식 발표 후 pdf 필드 추가할 것.
+
+- type: conference
+  year: 2026
+  title: "R2M: Real-Aware Residual Model Merging for Robust and Generalizable Deepfake Detection"
+  authors: "Jinhee Park, Guisik Kim, Choongsang Cho, Junseok Kwon"
+  venue: "European Conference on Computer Vision (ECCV) 2026"
+  pdf: "paper/2026/9145_R_2_M_Real_Aware_Residual (2).pdf"
+
+- type: conference
+  year: 2026
+  title: "Siamese DINO Adapter Learning with Haze-Robust Feature Representation for Nighttime Image Dehazing"
+  authors: "Jinhee Park, Choongsang Cho, Guisik Kim"
+  venue: "NTIRE 2026 Workshop (CVPR) — Nighttime Dehazing Challenge, 3rd place"
+  pdf: "paper/2026/Siamese DINO Adapter Learning with Haze-Robust Feature Representation for Nighttime Image Dehazing.pdf"
+
+- type: conference
+  year: 2026
+  title: "Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning"
+  authors: "Hayoung Park, Jinhee Park, Choongsang Cho, Guisik Kim"
+  venue: "CVPR 2026 Workshop — 1M-Deepfakes Detection Challenge, 4th place"
+  pdf: "paper/2026/Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning.pdf"
+
+- type: conference
+  year: 2026
+  title: "NTIRE 2026 Nighttime Image Dehazing Challenge Report"
+  authors: "R.P. Ancuti, A. Brateanu, R. Balmez, C. Orhei, F.A. Vasluianu, C.O. Ancuti, et al. (incl. Guisik Kim)"
+  venue: "CVPR 2026 Workshop (NTIRE)"
+
+- type: conference
+  year: 2025
+  title: "Lightweight Wasserstein Audio-Visual Model for Unified Speech Enhancement and Separation"
+  authors: "Jisoo Park, Seonghak Lee, Guisik Kim, Taewoo Kim, Junseok Kwon"
+  venue: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) 2025"
+  pdf: "paper/2025/2025281056_ASRU.pdf"
+
+- type: conference
+  year: 2025
+  title: "Naturalness-Aware Curriculum Learning with Dynamic Temperature for Speech Deepfake Detection"
+  authors: "Taewoo Kim, Guisik Kim, Choongsang Cho, Young Han Lee"
+  venue: "Interspeech 2025"
+  pdf: "paper/2025/Naturalness-Aware Curriculum Learning with Dynamic Temperature for Speech Deepfake Detection.pdf"
+
+- type: conference
+  year: 2025
+  title: "On the Importance of Dual-Space Augmentation for Domain Generalized Object Detection"
+  authors: "Hayoung Park, Choongsang Cho, Guisik Kim"
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025"
+  pdf: "paper/2025/On the Importance of Dual-Space Augmentation for Domain Generalized Object Detection.pdf"
+
+- type: conference
+  year: 2024
+  title: "Satellite Image Dehazing Via Masked Image Modeling and Jigsaw Transformation"
+  authors: "Guisik Kim, Choongsang Cho, Junseok Kwon"
+  venue: "Advances in Image Manipulation (AIM) Workshop, ECCV 2024"
+  pdf: "paper/2024/Satellite Image Dehazing Via Masked Image Modeling and Jigsaw Transformation.pdf"
+
+- type: conference
+  year: 2023
+  title: "Deep Dehazing Powered by Image Processing Network"
+  authors: "Guisik Kim, Jinhee Park, Junseok Kwon"
+  venue: "New Trends in Image Restoration and Enhancement (NTIRE) Workshop, CVPR 2023"
+  pdf: "paper/2023/Deep_Dehazing_Powered_by_Image_Processing_Network.pdf"
+
+- type: conference
+  year: 2022
+  title: "AIM 2022 Challenge on Instagram Filter Removal: Methods and Results"
+  authors: "F. Kıraç, R. Timofte, et al. (incl. Guisik Kim)"
+  venue: "ECCV 2022 Workshop (AIM)"
+
+- type: conference
+  year: 2020
+  title: "DALE: Dark Region-Aware Low-light Image Enhancement"
+  authors: "Dokyeong Kwon, Guisik Kim, Junseok Kwon"
+  venue: "British Machine Vision Conference (BMVC) 2020"
+  pdf: "paper/2020/2008.12493v1.pdf"
+
+- type: conference
+  year: 2020
+  title: "Attentive Style Transfer with Target Feature Palette"
+  authors: "Suhyeon Ha, Guisik Kim, Junseok Kwon"
+  venue: "ECCV 2020 Workshop"
+
+- type: conference
+  year: 2020
+  title: "NTIRE 2020 Challenge on Image and Video Deblurring"
+  authors: "S. Nah, S. Son, R. Timofte, K.M. Lee, et al. (incl. Guisik Kim)"
+  venue: "CVPR 2020 Workshop (NTIRE)"
+
+- type: conference
+  year: 2019
+  title: "AIM 2019 Challenge on Real-World Image Super-Resolution: Methods and Results"
+  authors: "A. Lugmayr, M. Danelljan, R. Timofte, et al. (incl. Guisik Kim)"
+  venue: "ICCV 2019 Workshop (AIM)"
+
+- type: conference
+  year: 2019
+  title: "Robust Person Re-identification via Graph Convolution Networks"
+  authors: "Guisik Kim, Dong Wook Shu, Junseok Kwon"
+  venue: "ICCV 2019 Workshop"
+
+- type: conference
+  year: 2019
+  title: "Bidirectional Deep Residual Learning for Haze Removal"
+  authors: "Guisik Kim, Jinhee Park, Suhyeon Ha, Junseok Kwon"
+  venue: "CVPR 2019 Workshop (NTIRE)"
+  pdf: "paper/2019/Kim_Bidirectional_Deep_Residual_learning_for_Haze_Removal_CVPRW_2019_paper.pdf"
+
+- type: conference
+  year: 2019
+  title: "Low-lightGAN: Low-Light Enhancement via Advanced Generative Adversarial Network with Task-Driven Training"
+  authors: "Guisik Kim, Dokyeong Kwon, Junseok Kwon"
+  venue: "IEEE International Conference on Image Processing (ICIP) 2019"
+  pdf: "paper/2019/Low-Lightgan_Low-Light_Enhancement_Via_Advanced_Generative_Adversarial_Network_With_Task-Driven_Training.pdf"
+
+- type: conference
+  year: 2018
+  title: "LEDNet: Deep Illumination-aware Dehazing with Low-light Enhancement"
+  authors: "Guisik Kim, Junseok Kwon"
+  venue: "ECCV 2018 Workshop (PIRM)"
+
+- type: conference
+  year: 2018
+  title: "Adaptive Patch based Convolutional Neural Network for Robust Dehazing"
+  authors: "Guisik Kim, Suhyeon Ha, Junseok Kwon"
+  venue: "IEEE International Conference on Image Processing (ICIP) 2018"
+  pdf: "paper/2018/Adaptive_Patch_Based_Convolutional_Neural_Network_for_Robust_Dehazing.pdf"
+
+- type: conference
+  year: 2017
+  title: "Robust Pixel-wise Dehazing Algorithm based on Advanced Haze-Relevant Features"
+  authors: "Guisik Kim, Junseok Kwon"
+  venue: "British Machine Vision Conference (BMVC) 2017"
+  pdf: "paper/2017/paper079.pdf"

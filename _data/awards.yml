@@ -1,0 +1,35 @@
+# 수상 내역. 논문과 같은 방식으로 항목을 추가하면 자동 반영됩니다.
+
+- year: 2026
+  date: "2026.06"
+  title: "Best Paper Award, CVPR 2026 AIMS Workshop"
+  file: "paper/2026/AIMS2026_best_paper_award.jpg"
+
+- year: 2026
+  date: "2026"
+  title: "NTIRE 2026 Nighttime Dehazing Challenge, 3rd Place"
+  file: "paper/2026/NTIRE2026awards_certificates_guisik.pdf"
+
+- year: 2025
+  date: "2025.09"
+  title: "CAU 대학원 AI 심포지엄 은상"
+
+- year: 2022
+  date: "2022.12"
+  title: "ACCV 2022 Outstanding Reviewer Award"
+
+- year: 2022
+  date: "2022.08"
+  title: "AI Graduate School Challenge 2022 1위 (과학기술정보통신부 장관상)"
+
+- year: 2022
+  date: "2022.07"
+  title: "EiR Award 2022 (중앙대학교 컴퓨터공학부)"
+
+- year: 2019
+  date: "2019.02"
+  title: "제31회 영상처리 및 이해(IPIU) 은상"
+
+- year: 2018
+  date: "2018.02"
+  title: "제30회 영상처리 및 이해(IPIU) 은상"
