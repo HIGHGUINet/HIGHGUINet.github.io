@@ -90,9 +90,18 @@
 
 - type: conference
   year: 2026
+  title: "Interference-Gated Continual Learning for Deepfake Detection"
+  authors: "TODO (anonymous submission — fill in from the camera-ready)"
+  venue: "Asian Conference on Computer Vision (ACCV) 2026 (to appear)"
+  image: "figures/accv418-teaser.png"
+  # Not yet officially published — PDF withheld. Add the pdf field once it's out.
+
+- type: conference
+  year: 2026
   title: "Perturbation-Invariant Feature Based Robust Invisible Watermarking"
   authors: "Guisik Kim, Geunwoo Oh, Hayoung Park, Jinhee Park, Choongsang Cho"
   venue: "IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge (Winner) — ICIP 2026 (to appear)"
+  image: "figures/icip2026-watermark-teaser.png"
   # Not yet officially published — PDF withheld. Add the pdf field once it's out.
 
 - type: conference
@@ -101,6 +110,7 @@
   authors: "Jinhee Park, Guisik Kim, Choongsang Cho, Junseok Kwon"
   venue: "European Conference on Computer Vision (ECCV) 2026"
   pdf: "paper/2026/9145_R_2_M_Real_Aware_Residual (2).pdf"
+  image: "figures/r2m-teaser.png"
 
 - type: conference
   year: 2026
@@ -108,6 +118,7 @@
   authors: "Jinhee Park, Choongsang Cho, Guisik Kim"
   venue: "NTIRE 2026 Workshop (CVPR) — Nighttime Dehazing Challenge, 3rd place"
   pdf: "paper/2026/Siamese DINO Adapter Learning with Haze-Robust Feature Representation for Nighttime Image Dehazing.pdf"
+  image: "figures/siamese-dino-teaser.png"
 
 - type: conference
   year: 2026
@@ -115,6 +126,7 @@
   authors: "Hayoung Park, Jinhee Park, Choongsang Cho, Guisik Kim"
   venue: "CVPR 2026 Workshop — 1M-Deepfakes Detection Challenge, 4th place"
   pdf: "paper/2026/Efficient Domain-Incremental Deepfake Detection via Difficulty-Aware Curriculum Learning.pdf"
+  image: "figures/domain-incremental-deepfake-teaser.png"
 
 - type: conference
   year: 2026
