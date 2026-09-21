@@ -8,11 +8,11 @@ Gemfile.lock
 GUI_HOMEPAGE (2).zip
 .DS_Store
 
-# 아직 정식 출판 전 논문 PDF — 공개 저장소에 올리지 않음 (로컬 보관용)
+# Not-yet-officially-published paper PDFs — kept out of the public repo (local copy only)
 paper/2026/418_Interference_Gated_Continu.pdf
 paper/2026/ICIP_2026_Grand_Challenge_Paper_GUISIK_KIM_camera_ready.pdf
 
-# 구독(비-오픈액세스) 저널 논문 PDF — 공개 저장소에 올리지 않음 (로컬 보관용)
+# Subscription (non-open-access) journal PDFs — kept out of the public repo (local copy only)
 paper/2024/Satellite_Image_Dehazing_Based_on_Dual_Frequency_Pass_Networks.pdf
 paper/2022/Self-Parameter_Distillation_Dehazing.pdf
 paper/2022/s11042-022-13123-4.pdf

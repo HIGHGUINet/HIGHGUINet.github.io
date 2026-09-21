@@ -1,28 +1,30 @@
 # HIGHGUINet.github.io
 
-Guisik Kim 개인 홈페이지. Jekyll + GitHub Actions로 만들어져서, `main` 브랜치에 push하면
-자동으로 빌드되어 `https://highguinet.github.io`에 배포됩니다.
+Guisik Kim's personal homepage. Built with Jekyll + GitHub Actions — pushing to `main`
+automatically builds and deploys to `https://highguinet.github.io`.
 
-## 논문/수상 추가하는 법 (자동 반영)
+## Adding a publication or award (auto-deployed)
 
-1. PDF(또는 이미지) 파일을 `paper/<연도>/` 폴더에 넣는다.
-2. `_data/publications.yml`(`type: journal` 또는 `conference`), `_data/awards.yml`(수상),
-   `_data/patents.yml`(특허), `_data/news.yml`(뉴스) 중 해당하는 파일에 항목 하나를 추가한다.
-3. `git add -A`, `git commit`, `git push` 하면 GitHub Actions가 자동으로 빌드 · 배포한다. (1~2분 소요)
+1. Put the PDF (or image) file in `paper/<year>/`.
+2. Add an entry to the relevant file: `_data/publications.yml` (`type: journal` or
+   `conference`), `_data/awards.yml` (awards), `_data/patents.yml` (patents), or
+   `_data/news.yml` (news).
+3. `git add -A`, `git commit`, `git push` — GitHub Actions builds and deploys
+   automatically (takes 1-2 minutes).
 
-## 최초 1회 설정
+## One-time setup
 
-1. GitHub에서 `HIGHGUINet/HIGHGUINet.github.io` 이름으로 새 저장소 생성 (Public).
-2. 로컬에서:
+1. Create a new public GitHub repo named `HIGHGUINet/HIGHGUINet.github.io`.
+2. Locally:
    ```
    git remote add origin https://github.com/HIGHGUINet/HIGHGUINet.github.io.git
    git branch -M main
    git push -u origin main
    ```
-3. 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 설정.
-4. 잠시 후 `https://highguinet.github.io`에서 확인.
+3. In the repo's Settings → Pages → Build and deployment → Source, select **GitHub Actions**.
+4. Check `https://highguinet.github.io` after a moment.
 
-## 로컬 미리보기 (선택, Ruby 필요)
+## Local preview (optional, requires Ruby)
 
 ```
 bundle install
@@ -31,18 +33,21 @@ bundle exec jekyll serve
 
 ## TODO
 
-- ICIP 2026 Grand Challenge 논문(`ICIP_2026_Grand_Challenge_Paper_GUISIK_KIM_camera_ready.pdf`)
-  정식 출판되면 `_data/publications.yml`에 제목 채우고 pdf 필드 추가, `.gitignore`에서도 제거
-- ACCV 2026 논문(`418_Interference_Gated_Continu.pdf`)도 정식 출판되면 `_data/publications.yml`에
-  정식 항목 추가 (현재는 `_data/news.yml`에 "ACCV 2026 논문 채택"으로만 반영됨)
-- 프로필 사진(`figures/나.png`)을 원하는 사진으로 교체 가능
-- 특허(`_data/patents.yml`)의 특허번호(US/EP/JP, KOR 미기재분) 채우기
+- Once the ICIP 2026 Grand Challenge paper (`ICIP_2026_Grand_Challenge_Paper_GUISIK_KIM_camera_ready.pdf`)
+  is officially published, fill in its title in `_data/publications.yml`, add the `pdf` field,
+  and remove it from `.gitignore`
+- Once the ACCV 2026 paper (`418_Interference_Gated_Continu.pdf`) is officially published, add a
+  proper entry to `_data/publications.yml` (currently only reflected in `_data/news.yml` as
+  "Paper accepted to ACCV 2026")
+- Swap the profile photo (`figures/me.png`) for a different one if desired
+- Fill in patent numbers in `_data/patents.yml` (US/EP/JP, and the missing KOR ones)
 
-## PDF 게시 정책
+## PDF publishing policy
 
-다음 PDF는 공개 저장소에 올리지 않습니다 (`.gitignore`에 등록, 로컬 `paper/`에는 남아있음):
-- 구독이 필요한 저널(IEEE TIP, T-ITS, GRSL, MTAP, IET Computer Vision 등) 논문
-- 아직 정식 출판 전인 논문 (ICIP 2026 Grand Challenge, ACCV 2026)
+The following PDFs are kept out of the public repo (listed in `.gitignore`; the local copy
+stays in `paper/`):
+- Papers in subscription journals (IEEE TIP, T-ITS, GRSL, MTAP, IET Computer Vision, etc.)
+- Papers not yet officially published (ICIP 2026 Grand Challenge, ACCV 2026)
 
-오픈액세스 저널(IEEE Access, Sensors/MDPI 등)과 이미 출판된 학회/워크숍 논문은 그대로 PDF를
-게시합니다.
+Open-access journals (IEEE Access, Sensors/MDPI, etc.) and already-published
+conference/workshop papers have their PDFs published as usual.

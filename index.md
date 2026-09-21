@@ -3,7 +3,7 @@ title: Home
 ---
 
 <div class="profile">
-  <img src="{{ '/figures/나.png' | relative_url }}" alt="Guisik Kim">
+  <img src="{{ '/figures/me.png' | relative_url }}" alt="Guisik Kim">
   <div>
     <h1>Guisik Kim</h1>
     <p class="tagline">Senior Researcher, Multi-Modal Research Center<br>Korea Electronics Technology Institute (KETI), Seongnam, Korea</p>
@@ -11,7 +11,7 @@ title: Home
 </div>
 
 Ph.D., School of Computer Science and Engineering, Chung-Ang University (Advisor: Prof. Junseok Kwon).
-연구 관심 분야는 image dehazing, deepfake detection, low-level vision, satellite image deep learning, adverse weather scene understanding입니다.
+Research interests: image dehazing, deepfake detection, low-level vision, satellite image deep learning, and adverse weather scene understanding.
 
 Contact: [{{ site.email }}](mailto:{{ site.email }})
 
@@ -35,7 +35,7 @@ Contact: [{{ site.email }}](mailto:{{ site.email }})
 </div>
 {% endfor %}
 
-<p><a href="{{ '/publications.html' | relative_url }}">전체 논문 목록 보기 →</a></p>
+<p><a href="{{ '/publications.html' | relative_url }}">See all publications →</a></p>
 
 ## Reviewer Activity
 

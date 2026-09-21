@@ -13,7 +13,7 @@ title: Awards
   <div class="award-card">
     <div class="pub-title">{{ a.title }}</div>
     {% if a.date %}<div class="pub-meta">{{ a.date }}</div>{% endif %}
-    {% if a.file %}<div class="pub-links"><a href="{{ a.file | uri_escape | relative_url }}">보기</a></div>{% endif %}
+    {% if a.file %}<div class="pub-links"><a href="{{ a.file | uri_escape | relative_url }}">View</a></div>{% endif %}
   </div>
   {% endfor %}
 </div>
