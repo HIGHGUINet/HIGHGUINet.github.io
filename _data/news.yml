@@ -1,16 +1,16 @@
 # Add newest items at the top. Only the first few are shown on the home page.
 # Source: guisik.creatorlink.net (previous homepage), News section, full 18-item list.
 
-- date: "2026.09"
+- date: "2026"
   text: "Our paper was accepted at ACCV 2026"
 
-- date: "2026.09"
+- date: "2026"
   text: "Winner of the IEEE ICIP 2026 JPEG Trust Watermarking Grand Challenge & paper accepted at ICIP 2026"
 
 - date: "2026"
   text: "Our paper was accepted at ECCV 2026"
 
-- date: "2026.06"
+- date: "2026"
   text: "Best Paper Award at the CVPR 2026 AIMS Workshop (as corresponding author)"
 
 - date: "2026"
@@ -37,7 +37,7 @@
 - date: "2023"
   text: "Our paper was accepted at the NTIRE Workshop, CVPR 2023"
 
-- date: "2022.12"
+- date: "2022"
   text: "Recognized as an Outstanding Reviewer, ACCV 2022"
 
 - date: "2022"
@@ -46,10 +46,10 @@
 - date: "2022"
   text: "Our paper was accepted by TIP"
 
-- date: "2022.08"
+- date: "2022"
   text: "Awarded 1st place in the AI Graduate School Challenge 2022"
 
-- date: "2022.07"
+- date: "2022"
   text: "Received the EiR Award 2022 from the School of Computer Science and Engineering, CAU"
 
 - date: "2022"

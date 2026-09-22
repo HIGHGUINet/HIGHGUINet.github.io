@@ -1,6 +1,46 @@
+- year: 2026
+  title: "Method and System for Detecting Generative Content Using Anomalous Features in Text Regions of Images"
+  country: "KOR"
+  number: ""
+
+- year: 2026
+  title: "Method and System for Digital Watermark Processing Using Invariant-Feature-Based Content-Watermark Separation"
+  country: "KOR"
+  number: ""
+
+- year: 2026
+  title: "Method and System for Deepfake Detection Using Adaptive Extraction and Reconstruction of Valid Regions in Images"
+  country: "KOR"
+  number: ""
+
 - year: 2025
   title: "Training System and Method for Deepfake Detection Model"
   country: "US, EP, JP"
+  number: ""
+
+- year: 2025
+  title: "Method and System for Effective Video Deepfake Detection and Training"
+  country: "KOR"
+  number: ""
+
+- year: 2025
+  title: "System and Method for Training Deepfake Detection Models"
+  country: "KOR"
+  number: ""
+
+- year: 2024
+  title: "Method and System for Object-Centric Data Augmentation for Explainable Model Training"
+  country: "KOR"
+  number: ""
+
+- year: 2024
+  title: "Training Method for Object Detection Networks Operating in Domain-General Conditions"
+  country: "KOR"
+  number: ""
+
+- year: 2023
+  title: "Method and System for Haze-Synthesized Satellite Image Augmentation"
+  country: "KOR"
   number: ""
 
 - year: 2021
