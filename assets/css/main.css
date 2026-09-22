@@ -79,6 +79,27 @@ h2 { font-size: 1.3rem; margin-top: 2.2em; border-bottom: 1px solid var(--border
 }
 .tagline { color: var(--muted); }
 
+.jump-nav {
+  display: flex;
+  gap: 10px;
+  margin: -0.6em 0 1.6em;
+}
+.jump-nav a {
+  display: inline-block;
+  padding: 6px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--fg);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.jump-nav a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+
 .year-group { margin-top: 1.6em; }
 .year-group h3 { color: var(--muted); font-weight: 600; font-size: 1rem; margin-bottom: 0.6em; }
 

@@ -4,7 +4,12 @@ title: Publications
 
 # Publications
 
-## Conference Publications
+<div class="jump-nav">
+  <a href="#conference">Conference</a>
+  <a href="#journal">Journal</a>
+</div>
+
+<h2 id="conference">Conference Publications</h2>
 
 {% assign conf = site.data.publications | where: 'type', 'conference' %}
 {% assign years = conf | map: 'year' | uniq | sort | reverse %}
@@ -26,7 +31,7 @@ title: Publications
 </div>
 {% endfor %}
 
-## Journal Publications
+<h2 id="journal">Journal Publications</h2>
 
 <p class="pub-meta">Impact Factors shown are the journal's current (2024 JCR) values, not the value at time of publication.</p>
 
