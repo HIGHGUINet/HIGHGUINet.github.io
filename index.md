@@ -47,3 +47,11 @@ Contact: [{{ site.email }}](mailto:{{ site.email }})
 **Journals**: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Image Processing (TIP), IEEE Signal Processing Letters, Artificial Intelligence Review, Neurocomputing, Journal of Visual Communication and Image Representation (JVCIR), IEEE Geoscience and Remote Sensing Letters (GRSL)
 
 **Conferences**: CVPR, ICCV, ECCV, BMVC, AAAI, ACCV, and NTIRE / AIM / AIMS workshops (ACCV 2022 Outstanding Reviewer Award)
+
+## Industry Collaboration & Technology Transfer
+
+I welcome industry collaboration on invisible watermarking and deepfake and AI-generated content detection. Please get in touch to discuss technology transfer, joint research, development for your specific application, or performance evaluation.
+
+Early-stage inquiries are also welcome. We can explore potential applications and collaboration opportunities together.
+
+**Contact:** [specialre@keti.re.kr](mailto:specialre@keti.re.kr)
